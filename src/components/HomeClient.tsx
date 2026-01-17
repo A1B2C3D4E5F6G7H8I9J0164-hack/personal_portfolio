@@ -109,7 +109,7 @@ export default function HomeClient({ splineSlot, aboutSplineSlot }: HomeClientPr
                                 <span className="text-gray-300 group-hover:text-white transition-colors font-medium">Contact Me</span>
                             </Link>
                             <a href="/resume.pdf" download className="group px-8 py-4 bg-white/5 border border-white/10 rounded-full hover:bg-white/10 transition-all hover:border-white/30 backdrop-blur-sm">
-                                <span className="text-gray-300 group-hover:text-white transition-colors font-medium">Download CV</span>
+                                <span className="text-gray-300 group-hover:text-white transition-colors font-medium">Download Resume</span>
                             </a>
                         </motion.div>
                     </div>
