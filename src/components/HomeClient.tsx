@@ -22,11 +22,19 @@ const projects = [
         features: ["Pomodoro Timer & Deep Work Analytics", "AI Learning Summaries", "Personalized Dashboard"]
     },
     {
+        title: 'AI Resume Builder',
+        tech: ['Next.js 15', 'Gemini AI', 'Mongoose', 'Tailwind'],
+        description: 'AI-powered resume builder that generates professional resumes from user descriptions.',
+        links: { live: 'https://resume-builder-two-puce.vercel.app/', github: 'https://github.com/A1B2C3D4E5F6G7H8I9J0164-hack/resume-builder' },
+        featured: true,
+        features: ["AI-Powered Content Generation", "Professional Templates", "Real-time Customization"]
+    },
+    {
         title: 'CookCulture',
         tech: ['React', 'Firebase', 'Tailwind'],
         description: 'Responsive recipe app with cultural blogs, authentication, and smooth animations.',
         links: { live: 'https://capstone-project-murex-three.vercel.app/', github: 'https://github.com/A1B2C3D4E5F6G7H8I9J0164-hack/capstone_project' },
-        featured: true,
+        featured: false,
         features: ["Recipe Sharing & Discovery", "Cultural Blogs", "User Authentication & Profiles"]
     }
 ];
