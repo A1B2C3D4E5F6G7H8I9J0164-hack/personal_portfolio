@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 
 const techs = [
-    'React', 'Next.js', 'Node.js', 'Express', 'MongoDB', 'SQL', 'TypeScript', 'Python', 'Tailwind', 'Framer Motion', 'GSAP', 'Figma'
+    'React', 'Next.js', 'Node.js', 'Express', 'MongoDB', 'SQL', 'TypeScript', 'Python', 'Tailwind', 'Framer Motion', 'GSAP', 'Figma', 'GenAI', 'LangChain', 'Streamlit', 'HuggingFace', 'OpenAI', 'Gemini'
 ];
 
 export default function InfiniteMarquee() {

@@ -14,11 +14,35 @@ import Link from 'next/link';
 // --- Data ---
 const projects = [
     {
+        title: 'GenAI Project',
+        tech: ['Streamlit', 'GenAI', 'Python'],
+        description: 'A generative AI application with an interactive web interface.',
+        links: { live: 'https://cosmicmagnetar-genai-project-srcapp-d5sbcx.streamlit.app/', github: 'https://github.com/CosmicMagnetar/GenAI_Project' },
+        featured: true,
+        features: ["Generative AI Models", "Interactive UI", "Data Processing"]
+    },
+    {
+        title: 'ExamAi Assistant',
+        tech: ['Next.js', 'AI', 'Vercel'],
+        description: 'An AI-powered assistant designed to aid students in exam preparation.',
+        links: { live: 'https://exam-ai-assistant-rho.vercel.app/', github: 'https://github.com/A1B2C3D4E5F6G7H8I9J0164-hack/ExamAi_Assistant' },
+        featured: false,
+        features: ["AI Study Guide Generation", "Interactive Quizzes", "Progress Tracking"]
+    },
+    {
+        title: 'Cinerama',
+        tech: ['Streamlit', 'Python', 'Machine Learning'],
+        description: 'A comprehensive movie recommendation system based on user preferences.',
+        links: { live: 'https://moviesrecommendationsystem-ttryehqsvtwsclnsbtk9ry.streamlit.app/', github: 'https://github.com/A1B2C3D4E5F6G7H8I9J0164-hack/Cinerama' },
+        featured: true,
+        features: ["Personalized Recommendations", "Collaborative Filtering", "Search & Discovery"]
+    },
+    {
         title: 'Learnsphere',
         tech: ['Next.js', 'Node.js', 'MongoDB'],
         description: 'Personal deep-work and learning dashboard with Pomodoro timer and AI summaries.',
         links: { live: 'https://capstone-sem-3.vercel.app/', github: 'https://github.com/A1B2C3D4E5F6G7H8I9J0164-hack/capstone_sem_3' },
-        featured: true,
+        featured: false,
         features: ["Pomodoro Timer & Deep Work Analytics", "AI Learning Summaries", "Personalized Dashboard"]
     },
     {
