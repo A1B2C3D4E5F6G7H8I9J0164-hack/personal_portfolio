@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-const words = ["Full Stack Developer", "Competitive Programmer", "AI Enthusiast", "Frontend Developer"];
+const words = ["Future AI Engineer", "Full Stack Developer", "Competitive Programmer", "Frontend Developer"];
 
 export default function TypewriterText() {
     const [index, setIndex] = useState(0);

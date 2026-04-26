@@ -124,7 +124,7 @@ export default function HomeClient({ splineSlot, aboutSplineSlot }: HomeClientPr
                             transition={{ delay: 0.5, duration: 0.8 }}
                             className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto md:mx-0 mb-12 leading-relaxed"
                         >
-                            Building scalable systems and crafting immersive digital experiences with modern web technologies.
+                            Passionate and future AI Engineer building scalable systems and crafting immersive digital experiences.
                         </motion.p>
 
                         <motion.div
@@ -162,7 +162,7 @@ export default function HomeClient({ splineSlot, aboutSplineSlot }: HomeClientPr
                 <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
                     <div className="glass p-8 rounded-3xl border-l-4 border-neon-blue">
                         <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                            I am a passionate <span className="text-white font-semibold">Full-Stack Developer</span>. Aspiring to grow into a well-rounded engineer capable of building scalable and impactful products. My internship experience has shaped my understanding of production-level development and teamwork.
+                            I am a <span className="text-white font-semibold">passionate and future AI Engineer</span>. Aspiring to grow into a well-rounded professional capable of building scalable, intelligent, and impactful products. My experience has shaped my understanding of production-level development and teamwork.
                         </p>
                         <div className="space-y-4">
                             {['Intern @ TechQRT', 'Student @ NST'].map((job, i) => (
